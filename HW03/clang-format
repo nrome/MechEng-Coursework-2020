@@ -1,0 +1,39 @@
+---
+# Targets C, C++, Objective C, ObjectiveC++ languages
+Language:        Cpp
+
+# Assign indent or outdent for access modifiers
+AccessModifierOffset: -2
+
+# Keeps end comments aligned line-by-line
+AlignTrailingComments: true
+
+# Place function parameters on a single line...or not
+# This one is interesting - sometimes use both whether short/long 
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# Doesn't breakout a function into multiple lines
+AllowShortFunctionsOnASingleLine: true
+
+# Keeps loop for/while logic on a single line
+# I don't like to see condensed loop logic - I want to easily read it
+AllowShortLoopsOnASingleLine: false
+
+# Limit code line wrap to 75 cols
+ColumnLimit:     75
+
+# The max number of consecutive empty lines allowed
+MaxEmptyLinesToKeep: 2
+
+# Set whether & and * bind to the type as opposed to the variable.
+# Interesting - would like to see this in action
+PointerBindsToType: true
+
+# Spaces are removed prior to assignment operators
+SpaceBeforeAssignmentOperators: true
+
+# Limit tab width to four cols
+TabWidth:        4
+
+...
+

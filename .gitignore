@@ -1,0 +1,24 @@
+# ignore directory
+.vscode/
+build/
+resources/
+
+# ignore file(s)
+# *.csv
+*.txt
+*.pdf
+*.docx
+*doc
+
+# but do track lib.a, even though you're ignoring .a files above
+# !lib.a
+
+# only ignore task# compile file in the current directory
+# this is not a subdir/task#
+# /task[1-5] this did not work
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+# doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+# doc/**/*.pdf
